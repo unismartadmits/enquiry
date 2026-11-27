@@ -8,7 +8,7 @@
  */
 (function () {
   var EXEC = 'https://script.google.com/macros/s/AKfycbyAn6Qen6Fv8gFO_hShxO6vNw-QiLlLMx7Of1HcnGBABBVheT2uyEynhe9NlkbEso6Jog/exec';
-  var CONSENT = 'By entering your number, you agree that UniSmart Admits may call or WhatsApp you about study abroad. We never share your details.';
+  var CONSENT = ''; /* notice now sits above the box (#notice) */
   var RATE_MAX = 10, RATE_MS = 60000;
 
   var Q = (function () { try { return new URLSearchParams(location.search); } catch (e) { return { get: function () { return ''; } }; } })();
